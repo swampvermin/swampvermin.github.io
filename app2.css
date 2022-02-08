@@ -1,0 +1,32 @@
+body {
+	background-image: url('mood.gif');
+	background-size: cover;
+
+	height:  75vh;
+	padding:  15px;
+	margin: 0;
+}
+
+a:link {
+	font-family: Helvetica, sans-serif;
+	color: red;
+}
+
+a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a:active {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: white;
+}
+
+body {
+	color:  red;
+	font-family: Helvetica, bold, sans-serif;
+}

@@ -1,0 +1,32 @@
+body {
+	background-image:  url('home.gif');
+	background-size: cover;
+	transparency:  30;
+
+	height:  100vh;
+	padding: 10px;
+	margin:  2;
+}
+
+a:link {
+	font-family:  Helvetica, sans-serif;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color:  blue;
+}
+
+a:hover {
+	color: red;
+}
+
+body {
+	font-family: Helvetica, bold, sans-serif;
+	color: black;
+}
