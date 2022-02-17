@@ -10,6 +10,7 @@ body {
 a:link {
 	font-family: Helvetica, sans-serif;
 	color: red;
+	text-decoration: none;
 }
 
 a:visited {
@@ -30,3 +31,48 @@ body {
 	color:  red;
 	font-family: Helvetica, bold, sans-serif;
 }
+
+.nav{
+	list-style: none;
+}
+
+.worknav {
+	list-style: none;
+}
+
+.music {
+	float: right;
+}
+
+.parent{
+	position: relative;
+	top:  0;
+	left:  0;
+}
+
+
+
+
+.frankie {
+	position:  absolute;
+	top: 20px;
+	left: 70px;
+	border:  1px solid #00000;
+	width: 20%;
+	height:  auto;
+}
+
+.rainy {
+	
+	position:  absolute;
+	top: 215px;
+	left: 90px;
+	border:  1px solid #00000;
+	width: 10%;
+	height:  auto;
+
+}
+
+
+
+

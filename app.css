@@ -32,3 +32,11 @@ body {
 	font-family: Helvetica, bold, sans-serif;
 	color: black;
 }
+
+.nav {
+	list-style: none;
+	font-style: bold;
+}
+.worknav {
+	list-style: none;
+}
