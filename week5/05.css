@@ -1,0 +1,183 @@
+body {
+	background-color: #ccccff;
+
+}
+
+h1 {
+	font-family: 'Helvetica', sans-serif;
+	padding-top: 10px;
+	padding-left: 30px;
+	color: red;
+
+}
+
+p {
+	font-family: 'Helvetica', sans-serif;
+	text-align: right;
+	padding-right: 40px;
+}
+
+a:link {
+	text-decoration: none;
+	color: red;
+}
+
+a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	background-color: white;
+}
+
+/* work cited:  https://dzone.com/articles/css-position-relative-vs-position-absolute */
+
+#hair {
+	background-color: black;
+	position: relative;
+	top: 60px;
+	left: 40%;
+	width:  160px;
+	height: 220px;
+	border-radius: 100px 100px 50px 50px;
+}
+
+#head {
+	background-color: #f6c6af;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 25%;
+	top: 50px;
+	left: 31px;
+}
+
+#neck {
+	background-color: #f6c6af;
+	position: absolute;
+	width: 24px;
+	height: 23px;
+	border-radius: 25%;
+	top: 147px;
+	left: 71px;
+}
+
+#body {
+	background-color: pink;
+	position: absolute;
+	width: 110px;
+	height: 140px;
+	border-radius: 20px;
+	top: 167px;
+	left: 28px;
+
+}
+
+#left {
+	background-color: deepskyblue;
+	position: absolute;
+	width: 55px;
+	height: 170px;
+	border-radius: 10px;
+	top: 306px;
+	left: 26px;
+}
+
+#right {
+	background-color: deepskyblue;
+	position: absolute;
+	width: 55px;
+	height: 170px;
+	border-radius: 10px;
+	top: 306px;
+	left: 81px;
+}
+
+#lshoe {
+	background-color: whitesmoke;
+	position: absolute;
+	width: 40px;
+	height: 30px;
+	border-radius: 10px;
+	top: 470px;
+	left: 34px;
+}
+
+#rshoe {
+	background-color: whitesmoke;
+	position: absolute;
+	width: 40px;
+	height: 30px;
+	border-radius: 10px;
+	top: 470px;
+	left: 89px;
+}
+
+#dualipa {
+	position: absolute;
+	width: 30%;
+	height: auto;
+	top: 200px;
+	left: -340px;
+	border-radius: 25%;
+
+}
+
+#bejing {
+	position: absolute;
+	top: 350px;
+	left: 400px;
+	border-radius: 30px;
+}
+
+#softball {
+	position: absolute;
+	top: 50px;
+	left: 320px;
+
+}
+
+#pisces {
+	position: absolute;
+	top: 10px;
+	left: -200px;
+
+}
+
+#taco {
+	position: absolute;
+	top: 400px;
+	left: -190px;
+}
+
+
+#nyu {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
