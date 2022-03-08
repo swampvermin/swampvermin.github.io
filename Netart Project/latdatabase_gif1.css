@@ -1,0 +1,37 @@
+header {
+    color: blue
+}
+
+body{	
+	background: white;
+	font-family: Courier;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.navbar{
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+	padding: 10px;
+
+}
+
+.gif1 {
+	display: flex;
+	justify-content: center;
+}
+
+#gifff {
+	border: solid black;
+}

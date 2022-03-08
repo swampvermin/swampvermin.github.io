@@ -1,0 +1,45 @@
+body{
+	background: black;
+	font-family: Courier;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+body#site{
+	color: green;
+}
+
+
+.navbar{
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+	padding: 10px;
+
+}
+
+.voyeur-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.space {
+	padding: 50px;
+}
+
+
+.credits {
+	display: flex;
+	justify-content: center;
+}

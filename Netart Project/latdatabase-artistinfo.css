@@ -1,0 +1,100 @@
+body{
+	background: black;
+	font-family: Courier;
+	color: white;
+	text-align: center;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+body#site{
+	color: green;
+}
+
+.navbar{
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+	padding: 10px;
+
+}
+
+.divider {
+	display: flex;
+	padding: 50px;
+}
+
+.brian {
+	display: flex;
+	justify-content: center;
+	border-style: ridge;
+	border-color: red;
+	border-radius: 1px;
+}
+
+.bribri{
+display: flex;
+justify-content: center;
+}
+
+#p1 {
+	display: flex;
+	justify-content: center;
+	height: 450px;
+	border: solid red;
+	border-radius: 1px;
+}
+
+#p2 {
+	display: flex;
+	justify-content: left;
+	word-wrap: break-word;
+}
+
+#since1999 {
+	display: flex;
+	padding: 30px;
+}
+
+.otherworks {
+	display: flex;
+	border-style: dotted;
+	border-color: red;
+	border-radius: 1px;
+	font-size: 12pt;
+}
+
+.smelly {
+display: flex;
+word-wrap: normal;
+}
+
+.twitter-tweet {
+	display: flex;
+	word-wrap: normal;
+	justify-content: center;
+}
+
+.brian-music {
+	display: flex;
+	padding: 30px;
+}
+
+h4{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+
+
