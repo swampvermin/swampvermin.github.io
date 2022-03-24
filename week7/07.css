@@ -1,7 +1,7 @@
-//* for help with animation: 
+/* for help with animation: 
 - https://www.w3schools.com/css/css3_animations.asp
 - https://www.youtube.com/watch?v=O5-Z0T1-J-Y
-*//
+*/
 
 
 body{
@@ -13,7 +13,6 @@ body{
 	background-color: red;
 	padding-bottom: 50px;
 	height: 650px;
-		font-family: Helvetica Bold, sans-serif;
 }
 
 .p1{
@@ -21,7 +20,7 @@ body{
 	padding-top: 15px;
 	text-align: center;
 }
-
+/* refercned at the top of page */
 .eyes{
   position: fixed;
   top: 10%;
@@ -56,7 +55,7 @@ body{
 
   transform: translate(-50%,-50%);
   border-radius: 50%;
-  border: 5px solid lightblue;
+  border: 5px solid #29ABE2;
 }
 
 h4{
@@ -106,9 +105,8 @@ h4{
 .line{
 	position: absolute;
 	height: 130px;
-	top: 1082px;
-	left: 312px;
-	z-index: 1;
+	top: 1073px;
+	left: 415px;
 	animation-name: line;
 	animation-duration: 1s;
 	animation-delay: 0s;
@@ -118,19 +116,13 @@ h4{
 
 @keyframes line{
 	100% {
-		transform: translate(-18px,2px) rotate(15deg);
+		transform: translate(-18px,2px) rotate(20deg);
 	}
 
 }
 
-.line:hover{
-		transform: translate(-19px,0px) rotate(15deg);
-}
 
-
-
-
-#b3{
+.b3{
 	height: 500px;
 	background-color: red;
 
@@ -138,13 +130,17 @@ h4{
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 20;
+padding: 60px;
+
+}
+
+#lasth{
+	padding-bottom: 20;
 }
 
 .cover{
 		height: 250px;
 		width: auto;
-
 
 }
 
