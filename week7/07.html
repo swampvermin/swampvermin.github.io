@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Araceli's Web Dev Page">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>1984</title>
+	<link rel="stylesheet" type="text/css" href='07.css'>
+</head>
+
+<body>
+
+<div id='b1'> 
+
+<p class='p1'> BIG BROTHER IS WATCHING YOU</p>
+
+<div class="eyes">
+
+    <div class="eye">
+      <div class="pupil"></div>
+    </div>
+
+    <div class="eye">
+      <div class="pupil"></div>
+    </div>
+
+</div >
+
+    <img id='bigtitle' src="images/1984Title.png" width="100px" height="auto"> 
+	<h4>a novel by George Orwell</h4> 
+
+ </div>
+
+
+
+
+<div class="b2">
+
+	<img class="clock" id='analog' src="images/clock.png" width="100px" height="auto">
+	<img  class="clock" id='textbox' src="images/13april.png" width="100px" height="auto">
+
+</div class='fuck'>
+
+	<img class='line' src="images/redLine.png">
+
+
+<div id="b3">
+	
+  <img class='cover' src="images/v1.jpg">
+   <img class='cover' src="images/v2.jpeg">
+    <img class='cover' src="images/v3.jpg">
+     <img class='cover' src="images/v4.jpeg">
+      <img class='cover' src="images/v5.png">
+       <img class='cover' src="images/v6.png">
+        <img class='cover' src="images/v7.jpg">
+         <img class='cover' src="images/v8.jpg">
+
+</div>
+
+
+
+
+
+
+<!-- all credit to the creator these sources for the javascript portion!!:
+	https://www.geeksforgeeks.org/design-smiley-face-eyes-that-follow-mouse-cursor-using-css-and-js/
+
+	https://www.youtube.com/watch?v=AixAmLWzXYg&t=39s
+-->
+<script>
+  var pupils = document.getElementsByClassName("pupil");
+  document.onmousemove = function(){
+
+    var x = event.clientX * 100 / window.innerWidth + "%";     //for mouseX position
+    var y = event.clientY * 100 / window.innerHeight + "%"; // for mouseY postion
+ 
+
+    for(var i=0;i<2;i++){
+      pupils[i].style.left = x;
+      pupils[i].style.top = y;
+      pupils[i].style.transform = "translate(-"+x+",-"+y+")";
+    }
+  }
+</script>
+
+</body>
+<html>

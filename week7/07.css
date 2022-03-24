@@ -1,0 +1,150 @@
+//* for help with animation: 
+- https://www.w3schools.com/css/css3_animations.asp
+- https://www.youtube.com/watch?v=O5-Z0T1-J-Y
+*//
+
+
+body{
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+
+#b1{
+	background-color: red;
+	padding-bottom: 50px;
+	height: 650px;
+		font-family: Helvetica Bold, sans-serif;
+}
+
+.p1{
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.eyes{
+  position: fixed;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+
+}
+
+.eye{
+  position: relative;
+  width: 40px;
+  height: 22px;
+  margin: 20px;
+
+  background: white;
+  display: inline-block;
+
+  border-radius: 50%;
+
+  overflow: hidden;
+}
+
+.pupil{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: 50%;
+
+  background: #000;
+
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 5px solid lightblue;
+}
+
+h4{
+	text-align: center;
+	margin-top: 10;
+}
+
+#bigtitle {
+
+	width: 1200px;
+	height: auto;
+	padding-top: 75px;
+
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-content: center;
+
+}
+
+.b2{
+	height: 720px;
+	background-color: black;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.clock{
+	padding-top: 140px;
+
+	height: 450px;
+	width: auto;
+}
+
+#textbox{
+	padding-top: 180px;
+
+	height: 280px;
+	width: auto;
+}
+
+#analog{
+	position: relative;
+}
+
+.line{
+	position: absolute;
+	height: 130px;
+	top: 1082px;
+	left: 312px;
+	z-index: 1;
+	animation-name: line;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes line{
+	100% {
+		transform: translate(-18px,2px) rotate(15deg);
+	}
+
+}
+
+.line:hover{
+		transform: translate(-19px,0px) rotate(15deg);
+}
+
+
+
+
+#b3{
+	height: 500px;
+	background-color: red;
+
+	position: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20;
+}
+
+.cover{
+		height: 250px;
+		width: auto;
+
+
+}
+
