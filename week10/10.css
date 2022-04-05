@@ -1,0 +1,67 @@
+body {
+	background-color: black;
+	font-family: Helvetica,sans-serif;
+	font-style: black;
+	text-align: center;
+	color: white;
+}
+
+p{
+		padding-top: 35px;
+}
+
+#truman{
+	padding-top: 70px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+
+	display: block;
+}
+
+#book{
+	padding-top: 80px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+
+	display: none;
+}
+
+
+
+#radio{
+	padding-top: 40px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+
+	display: none;
+}
+
+#tv{
+	padding-top: 60px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+
+	display: none;
+}
+
+#phone{
+	padding-top: 100px;
+	width: 500px;
+	height: auto;
+	margin: auto;
+
+	display: none;
+}
+
+#laptop{
+	padding-top: 60px;
+	width: 500px;
+	height: auto;
+	margin: auto;
+
+	display: none;
+}
