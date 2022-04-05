@@ -10,13 +10,71 @@ p{
 		padding-top: 35px;
 }
 
+select{
+	font-size: 15px;
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+	border: 1px solid white;
+	background-color: deepskyblue;
+
+  
+}
+
 #truman{
-	padding-top: 70px;
+	padding-top: 40px;
 	width: 550px;
 	height: auto;
 	margin: auto;
 
 	display: block;
+}
+
+#pic1{
+	display: none;
+	padding-top: 30px;
+	width: 600px;
+	height: auto;
+	margin: auto;
+}
+
+#pic2{
+	display: none;
+	padding-top: 30px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+}
+
+#pic3{
+	display: none;
+	padding-top: 30px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+}
+
+#pic4{
+	display: none;
+	padding-top: 30px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+}
+
+#pic5{
+	display: none;
+	padding-top: 30px;
+	width: 550px;
+	height: auto;
+	margin: auto;
+}
+
+#pic6{
+	display: none;
+	padding-top: 30px;
+	width: 550px;
+	height: auto;
+	margin: auto;
 }
 
 #book{
@@ -40,7 +98,7 @@ p{
 }
 
 #tv{
-	padding-top: 60px;
+	padding-top: 50px;
 	width: 550px;
 	height: auto;
 	margin: auto;
@@ -49,8 +107,8 @@ p{
 }
 
 #phone{
-	padding-top: 100px;
-	width: 500px;
+	padding-top: 50px;
+	width: 550px;
 	height: auto;
 	margin: auto;
 
@@ -58,7 +116,7 @@ p{
 }
 
 #laptop{
-	padding-top: 60px;
+	padding-top: 30px;
 	width: 500px;
 	height: auto;
 	margin: auto;
