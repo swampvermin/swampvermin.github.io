@@ -1,5 +1,6 @@
 body{
 	font-family: Akzidenz Grotesk, sans-serif;
+	cursor: url(..images/circle.png),auto;
 }
 
 h1{
@@ -18,6 +19,24 @@ h4{
 h2{
 	margin-top: 50px;
 	margin-left: 80px;
+}
+
+P{
+	margin: 70px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	text-decoration: none;
+	color:black ;
+}
+
+a:h4:hover {
+	color: black;
 }
 
 #b2{
@@ -109,6 +128,48 @@ h2{
 
 }
 
+#wireframes{
+	display: flex;
+	justify-content: center;
+
+}
+
+.wire{
+	width: 500px;
+	height: auto;
+	padding: 10px;
+}
+
+#sitemap{
+	display: flex;
+	margin: auto;
+	width: 700px;
+	height: auto;
+}
+
+.icons{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin: 10px;
+	gap: 10px;
+}
+
+#screen{
+	width: 400px;
+	height: auto;
+}
+
+#font{
+	width: 200px;
+	height: auto;
+}
+
+#gif{
+	width: 35px;
+	height: 35px;
+	justify-content: space-between;
+}
 
 
 
