@@ -1,0 +1,269 @@
+body{
+	font-family: Akzidenz Grotesk, sans-serif;
+	
+}
+/*css for creative html*/
+
+#free{
+	align-items: center;
+}
+
+.navbar{
+	list-style: none;
+	display: flex;
+	justify-content:space-between;
+	padding: 10px;
+	z-index: 1;
+}
+
+.navbar a{
+	font-size: 20px;
+}
+
+#toolBox{
+	margin: 10px;
+	display: flex;	
+}
+
+.toolList{
+	list-style: none;
+}
+
+#red{
+	color: rgb(255,0,0);
+}
+#pink{
+	color: rgb(255, 166, 190);
+}
+#orange{
+	color: rgb(255,126,48);
+}
+#yellow{
+	color: rgb(255,216,1);
+}
+#canary{
+	color: rgb(255,239,0);
+}
+#green{
+	color: rgb(52,140,49);
+}
+#sage{
+	color: rgb(183,205,131);
+}
+#blue{
+	color: rgb(0,0,255);
+}
+#skyblue{
+	color: rgb(137,197,255);
+}
+#indigo{
+	color: rgb(63,15,183);
+}
+#violet{
+	color: rgb(127,0,255);
+}
+#lilac{
+	color: rgb(213,181,194);
+}
+
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:link {
+	text-decoration: none;
+	z-index: 1;
+}
+
+.navbar a:hover {
+	background-color: red;
+	transition: 1s;
+}
+
+/*css for home page*/
+
+.img-group{
+	display: flex;
+	height: 205px;
+	width: auto;
+	flex-flow: row wrap;		
+}
+
+.photos{
+	height: 300px;
+	margin: 5px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.photos:hover{
+	border-bottom: 3px solid rgb(255,0,0);
+}
+
+/*creative space css*/
+
+#sun{
+
+	width: 600px;
+	height: auto;
+
+	top: 570px;
+	position: absolute;
+left: 700px;
+}
+
+#moon{
+	display: block;
+	padding-left: 100px;
+	margin-top: 400px;
+	width: 280px;
+	height: auto;
+}
+
+#mexico{
+	position: absolute;
+	width: 570px;
+	height: auto;
+	top: 1550px;
+	left: 50px;
+}
+
+#dragon{
+	width: 40px;
+	height: auto;
+	position: absolute;
+	top: 820px;
+	left: 470px;
+
+	z-index: 1;
+}
+
+#cd{
+	width: 100px;
+	height: auto;
+	position: absolute;
+	top: 660px;
+	left: 400px;
+
+	z-index: 1;
+
+}
+
+#drug{
+	position: absolute;
+	width: 300px;
+	top: 700px;
+	left: 10px;
+
+	z-index: 1;
+}
+
+#prompt{
+	position: absolute;
+	top: 1100px;
+	left: 440px;
+}
+
+
+/*css for info pages*/
+
+.content{
+	margin: 10px;
+	display: flex;
+
+}
+.content div{
+	flex:2 0 50%;
+}
+
+.infoImg{
+	max-width: 100%;
+	height: auto;
+	margin-right: 10px;
+}
+
+.caption{
+	margin-bottom: 2px;
+}
+
+.description{
+	color: rgb(255, 0, 0);
+	font-style: italic;
+}
+
+/* css for description on pages */
+.hide{
+	display: none;
+}
+
+.show{
+	animation-name: spin, depth;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	text-align: center;
+
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+    transform-origin: initial;
+  }
+}
+@keyframes depth {
+  0% {
+    text-shadow: 0 0 black;
+  }
+  25% {
+    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
+  }
+  50% {
+    text-shadow: 0 0 black;
+  }
+  75% {
+    text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
+      -5px 0 black;
+  }
+  100% {
+    text-shadow: 0 0 black;
+  }
+}
+
+.show:hover +.hide{
+	display: block;
+}
+
+#khalo{
+	max-width: 40%;
+	height: auto;
+}
+
+/*css for about*/
+
+#aboutDiv{
+	width: 50%;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
