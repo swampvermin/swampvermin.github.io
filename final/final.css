@@ -97,7 +97,11 @@ a:link {
 	margin: 5px;
 	justify-content: space-between;
 	margin-bottom: 20px;
+
+
 }
+
+
 
 .photos:hover{
 	border-bottom: 3px solid rgb(255,0,0);
@@ -107,28 +111,21 @@ a:link {
 
 #sun{
 
-	width: 600px;
-	height: auto;
-
-	top: 570px;
 	position: absolute;
-left: 700px;
+	width: 650px;
+	height: auto;
+	top: 1550px;
+	right: 30px;
 }
 
-#moon{
-	display: block;
-	padding-left: 100px;
-	margin-top: 400px;
-	width: 280px;
-	height: auto;
-}
 
 #mexico{
 	position: absolute;
-	width: 570px;
+	width: 390px;
 	height: auto;
-	top: 1550px;
+	top: 1100px;
 	left: 50px;
+	z-index: -1;
 }
 
 #dragon{
@@ -136,7 +133,7 @@ left: 700px;
 	height: auto;
 	position: absolute;
 	top: 820px;
-	left: 470px;
+	left: 300px;
 
 	z-index: 1;
 }
@@ -146,7 +143,7 @@ left: 700px;
 	height: auto;
 	position: absolute;
 	top: 660px;
-	left: 400px;
+	left: 300px;
 
 	z-index: 1;
 
@@ -163,8 +160,12 @@ left: 700px;
 
 #prompt{
 	position: absolute;
-	top: 1100px;
+	top: 600px;
 	left: 440px;
+}
+.jamesColor{
+	width: 400px;
+	height: auto;
 }
 
 
@@ -182,7 +183,7 @@ left: 700px;
 .infoImg{
 	max-width: 100%;
 	height: auto;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .caption{
@@ -242,6 +243,23 @@ left: 700px;
 #khalo{
 	max-width: 40%;
 	height: auto;
+}
+
+/*css for info gallery*/
+.infoGallery{
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row wrap;
+	
+
+}
+
+.infoPics{
+	width: 240px;
+	height: auto;
+flex: 0 0 50%;
+	margin: 10px;
+	
 }
 
 /*css for about*/

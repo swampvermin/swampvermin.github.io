@@ -150,10 +150,7 @@ function keyTyped() {
   } else if(key=='d'){
   	strokeColor= 0
   	fill(0);
-  } else{
-  	fill(0);
-  	strokeColor=0;
-  }
+  } 
   stroke(strokeColor)
   fill(strokeColor)
 // control brush
